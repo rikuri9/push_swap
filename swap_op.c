@@ -6,11 +6,12 @@
 /*   By: riwamoto <riwamoto@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/27 17:14:43 by riwamoto          #+#    #+#             */
-/*   Updated: 2026/10/27 17:28:48 by riwamoto         ###   ########.fr       */
+/*   Updated: 2026/10/27 18:22:52 by riwamoto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
+#include "libft.h"
 
 static void	swap(t_stack *s)
 {

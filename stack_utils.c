@@ -6,7 +6,7 @@
 /*   By: riwamoto <riwamoto@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/27 17:16:07 by riwamoto          #+#    #+#             */
-/*   Updated: 2026/10/27 17:46:09 by riwamoto         ###   ########.fr       */
+/*   Updated: 2026/10/27 18:24:49 by riwamoto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,5 +30,5 @@ void	free_node_exe(t_node *top)
 void	free_node_all(t_data *data)
 {
 	free_node_exe(data->a.top);
-	free_node_exe(data->a.top);
+	free_node_exe(data->b.top);
 }
