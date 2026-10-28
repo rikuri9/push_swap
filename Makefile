@@ -19,7 +19,8 @@ SRCS = main.c \
 	sort_utils.c \
 	complex_sort.c \
 	parser_helper.c \
-	stack_utils.c
+	stack_utils.c \
+	small_sort.c
 
 OBJS = $(addprefix $(OBJ_DIR)/, $(SRCS:.c=.o))
 

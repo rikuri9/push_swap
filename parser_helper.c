@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   parser_helper.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thaga <thaga@student.42tokyo.jp>           +#+  +:+       +#+        */
+/*   By: riwamoto <riwamoto@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/25 16:18:13 by thaga             #+#    #+#             */
-/*   Updated: 2026/10/25 16:18:14 by thaga            ###   ########.fr       */
+/*   Updated: 2026/10/28 16:01:34 by riwamoto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "push_swap.h"
 #include <limits.h>
 #include <stddef.h>

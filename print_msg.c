@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   print_msg.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thaga <thaga@student.42tokyo.jp>           +#+  +:+       +#+        */
+/*   By: riwamoto <riwamoto@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/25 16:17:21 by thaga             #+#    #+#             */
-/*   Updated: 2026/10/25 16:17:22 by thaga            ###   ########.fr       */
+/*   Updated: 2026/10/28 16:01:30 by riwamoto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "push_swap.h"
 #include "libft.h"
 

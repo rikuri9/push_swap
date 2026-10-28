@@ -6,13 +6,13 @@
 /*   By: riwamoto <riwamoto@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/27 17:15:57 by riwamoto          #+#    #+#             */
-/*   Updated: 2026/10/27 17:55:01 by riwamoto         ###   ########.fr       */
+/*   Updated: 2026/10/28 16:55:40 by riwamoto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-static void	bring_to_top(t_data *data, int idx)
+void	bring_to_top(t_data *data, int idx)
 {
 	int	size;
 

@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thaga <thaga@student.42tokyo.jp>           +#+  +:+       +#+        */
+/*   By: riwamoto <riwamoto@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/25 15:14:51 by thaga             #+#    #+#             */
-/*   Updated: 2026/10/25 15:14:54 by thaga            ###   ########.fr       */
+/*   Updated: 2026/10/28 17:14:57 by riwamoto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
 
@@ -106,6 +107,7 @@ void	op_exe(t_data *data, void (*f)(t_data *data), int cnt);
 int		find_idx(t_stack *s, int target);
 
 /* simple_sort.c */
+void	bring_to_top(t_data *data, int idx);
 void	simple_sort(t_data *data);
 
 /* medium_sort.c */
@@ -113,5 +115,8 @@ void	medium_sort(t_data *data);
 
 /* complex_sort.c */
 void	complex_sort(t_data *data);
+
+/* small_sort.c */
+void	small_sort(t_data *data);
 
 #endif

@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thaga <thaga@student.42tokyo.jp>           +#+  +:+       +#+        */
+/*   By: riwamoto <riwamoto@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/25 15:16:55 by thaga             #+#    #+#             */
-/*   Updated: 2026/10/25 15:16:56 by thaga            ###   ########.fr       */
+/*   Updated: 2026/10/28 16:01:50 by riwamoto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "push_swap.h"
 #include "libft.h"
 
@@ -29,7 +30,9 @@ static void	start_sort(t_data *data, void (*f)(t_data *data),
 
 static void	adaptive_sort(t_data *data)
 {
-	if (data->disorder < 0.2)
+	if (data->a.size <= 5)
+		start_sort(data, &small_sort, "Adaptive / O(1)");
+	else if (data->disorder < 0.2)
 		start_sort(data, &simple_sort, "Adaptive / O(n²)");
 	else if (data->disorder < 0.5)
 		start_sort(data, &medium_sort, "Adaptive / O(n√n)");

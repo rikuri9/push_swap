@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   rotate_op.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thaga <thaga@student.42tokyo.jp>           +#+  +:+       +#+        */
+/*   By: riwamoto <riwamoto@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/25 16:14:33 by thaga             #+#    #+#             */
-/*   Updated: 2026/10/25 16:14:36 by thaga            ###   ########.fr       */
+/*   Updated: 2026/10/28 16:01:23 by riwamoto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "push_swap.h"
 #include "libft.h"
 
