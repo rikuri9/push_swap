@@ -6,7 +6,7 @@
 /*   By: riwamoto <riwamoto@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/28 15:50:05 by riwamoto          #+#    #+#             */
-/*   Updated: 2026/10/28 17:13:37 by riwamoto         ###   ########.fr       */
+/*   Updated: 2026/10/28 17:59:32 by riwamoto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ static void	sort_three(t_data *data)
 {
 	int		cur_max;
 
-	cur_max = find_idx(&data->a, data->a.size - 1);
+	cur_max = find_idx(&data->a, data->a.size + data->b.size - 1);
 	if (cur_max == 0)
 		op_exe(data, &ra, 1);
 	if (cur_max == 1)
